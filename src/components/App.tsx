@@ -33,7 +33,7 @@ export default function App() {
   const handleAddToList = async (text: string) => {
     const companyName = text
       .split(" ")
-      .find((word) => word.includes("#"))
+      .find((word) => word.includes("#"))!
       .substring(1);
 
     const newItem: TFeedbackItem = {
