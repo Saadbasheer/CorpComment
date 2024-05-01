@@ -3,15 +3,14 @@ export default function Footer() {
     <footer className="footer">
       <small>
         <p>
-          &copy; Copyright by{" "}
-          <a target="_blank">
+           Project by{" "}
+          <a href="https://github.com/Saadbasheer/rmtDev">
             saadbasheer
           </a>{" "}
-          2024
+        
         </p>
         <p>
-          <span className="u-bold u-italic">Not allowed</span> to use as your
-          own teaching material.
+          <span className="u-bold u-italic">intended to showcase for portfolio</span>
         </p>
       </small>
     </footer>
